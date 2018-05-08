@@ -10,7 +10,7 @@
 - TextView color changes depending on score
 - organized XML attributes into Styles for similarly formatted views
 
-## Screenshots
+## Screenshot
 
 - taken on emulated Pixel 2 (API 22)
 
