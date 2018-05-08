@@ -1,7 +1,7 @@
 # BaseballScorekeeper: Google Scholarship, Phase 1
 
 ## Purpose
-- demonstrate fundamental Java concepts by creating an app to track scoring of a baseball game
+- demonstrate fundamental Java concepts by creating an app to track baseball score
 
 ## Features
 - use of LinearLayout, RelativeLayout, and ScrollView to organize views
