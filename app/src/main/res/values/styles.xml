@@ -1,0 +1,201 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorButtonNormal</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+    </style>
+
+
+    <style name="Divider">
+        <item name="android:layout_width">@dimen/divider_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorDivider</item>
+    </style>
+
+    <style name="mainScoreBoard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginEnd">@dimen/horizontal_margin</item>
+        <item name="android:layout_marginLeft">@dimen/horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/horizontal_margin</item>
+        <item name="android:layout_marginStart">@dimen/horizontal_margin</item>
+        <item name="android:layout_marginTop">@dimen/scoreboard_vertical_margin</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:baselineAligned">false</item>
+    </style>
+
+    <style name="mainScoreBoardTeamColumn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="columnTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="scoreMainScoreBoard">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/score_text_size</item>
+    </style>
+
+    <style name="lineScore">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/scoreboard</item>
+        <item name="android:layout_marginBottom">@dimen/linescore_vertical_margin</item>
+        <item name="android:layout_marginEnd">@dimen/horizontal_margin</item>
+        <item name="android:layout_marginLeft">@dimen/horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/horizontal_margin</item>
+        <item name="android:layout_marginStart">@dimen/horizontal_margin</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="lineScoreColumnWide">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">@dimen/linescore_team_column_weight</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="lineScoreColumnFirstColumnBlankCell">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorLinescore1</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="lineScoreColumnFirstColumnCell">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorLinescore2</item>
+        <item name="android:paddingEnd">@dimen/linescore_padding_horizontal</item>
+        <item name="android:paddingLeft">@dimen/linescore_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/linescore_padding_horizontal</item>
+        <item name="android:paddingStart">@dimen/linescore_padding_horizontal</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="mainScoreBoardInsideColumns">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="mainScoreBoardInnerColumn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/middle_of_scoreboard</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="mainScoreBoardInnerColumn.Title" parent="@style/mainScoreBoardInnerColumn">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorInningHalf</item>
+    </style>
+
+    <style name="buttonsLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/linescore</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="buttonsColumn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="button" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/button_vertical_margin</item>
+        <item name="android:layout_marginTop">@dimen/button_vertical_margin</item>
+    </style>
+
+    <style name="buttonColumnTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/fielding_heading_margin_bottom</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:paddingTop">@dimen/image_padding</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="lineScoreInningColumn">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">@dimen/linescore_inning_column_weight</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="resetButton" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/actionButtons</item>
+        <item name="android:layout_marginEnd">@dimen/reset_button_horizontal_margin</item>
+        <item name="android:layout_marginLeft">@dimen/reset_button_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/reset_button_horizontal_margin</item>
+        <item name="android:layout_marginStart">@dimen/reset_button_horizontal_margin</item>
+        <item name="android:layout_marginTop">@dimen/reset_button_vertical_margin</item>
+    </style>
+
+    <style name="inningLabel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorLinescore1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorInningLabel</item>
+    </style>
+
+    <style name="inningScore">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorLinescore2</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="inningColumnBlank">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">@dimen/linescore_inning_column_weight</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="inningLabel.bold" parent="@style/inningLabel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorLinescore1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorInningLabel</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+</resources>

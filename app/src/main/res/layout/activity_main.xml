@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/scoreboard"
+            style="@style/mainScoreBoard"
+            android:baselineAligned="false">
+
+            <LinearLayout style="@style/mainScoreBoardTeamColumn">
+
+                <TextView
+                    style="@style/columnTitle"
+                    android:text="@string/awayName" />
+
+                <TextView
+                    android:id="@+id/awayScore"
+                    style="@style/scoreMainScoreBoard"
+                    android:text="@string/scoreboard_initial_value" />
+
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/mainScoreBoardInsideColumns">
+
+                <TextView
+                    android:id="@+id/inningHalf"
+                    style="@style/mainScoreBoardInnerColumn.Title"
+                    android:text="@string/inning_half_initial_value" />
+
+                <TextView
+                    android:id="@+id/inning"
+                    style="@style/mainScoreBoardInnerColumn"
+                    android:text="@string/inning_initial_value"
+                    android:textSize="@dimen/middle_of_scoreboard" />
+
+            </LinearLayout>
+
+
+            <LinearLayout style="@style/mainScoreBoardInsideColumns">
+
+                <TextView
+                    style="@style/mainScoreBoardInnerColumn.Title"
+                    android:text="@string/outs_column_label" />
+
+                <TextView
+                    android:id="@+id/outs"
+                    style="@style/mainScoreBoardInnerColumn"
+                    android:text="@string/scoreboard_initial_value" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/mainScoreBoardTeamColumn">
+
+                <TextView
+                    style="@style/columnTitle"
+                    android:text="@string/homeName" />
+
+                <TextView
+                    android:id="@+id/homeScore"
+                    style="@style/scoreMainScoreBoard"
+                    android:text="@string/scoreboard_initial_value" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linescore"
+            style="@style/lineScore"
+            android:baselineAligned="false">
+
+            <LinearLayout style="@style/lineScoreColumnWide">
+
+                <TextView style="@style/lineScoreColumnFirstColumnBlankCell" />
+
+                <TextView
+                    style="@style/lineScoreColumnFirstColumnCell"
+                    android:text="@string/awayName" />
+
+                <TextView
+                    style="@style/lineScoreColumnFirstColumnCell"
+                    android:text="@string/homeName" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:id="@+id/linescoreInning1"
+                style="@style/lineScoreInningColumn">
+
+                <TextView
+                    style="@style/inningLabel"
+                    android:text="@string/inning_1_column_label" />
+
+                <TextView
+                    android:id="@+id/awayScoreInning1"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+                <TextView
+                    android:id="@+id/homeScoreInning1"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linescoreInning2"
+                style="@style/lineScoreInningColumn">
+
+                <TextView
+                    style="@style/inningLabel"
+                    android:text="@string/inning_2_column_label" />
+
+                <TextView
+                    android:id="@+id/awayScoreInning2"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+                <TextView
+                    android:id="@+id/homeScoreInning2"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linescoreInning3"
+                style="@style/lineScoreInningColumn">
+
+                <TextView
+                    style="@style/inningLabel"
+                    android:text="@string/inning_3_column_label" />
+
+                <TextView
+                    android:id="@+id/awayScoreInning3"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+                <TextView
+                    android:id="@+id/homeScoreInning3"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linescoreInning4"
+                style="@style/lineScoreInningColumn">
+
+                <TextView
+                    style="@style/inningLabel"
+                    android:text="@string/inning_4_column_label" />
+
+                <TextView
+                    android:id="@+id/awayScoreInning4"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+                <TextView
+                    android:id="@+id/homeScoreInning4"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linescoreInning5"
+                style="@style/lineScoreInningColumn">
+
+                <TextView
+                    style="@style/inningLabel"
+                    android:text="@string/inning_5_column_label" />
+
+                <TextView
+                    android:id="@+id/awayScoreInning5"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+                <TextView
+                    android:id="@+id/homeScoreInning5"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linescoreInning6"
+                style="@style/lineScoreInningColumn">
+
+                <TextView
+                    style="@style/inningLabel"
+                    android:text="@string/inning_6_column_label" />
+
+                <TextView
+                    android:id="@+id/awayScoreInning6"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+                <TextView
+                    android:id="@+id/homeScoreInning6"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linescoreInning7"
+                style="@style/lineScoreInningColumn">
+
+                <TextView
+                    style="@style/inningLabel"
+                    android:text="@string/inning_7_column_label" />
+
+                <TextView
+                    android:id="@+id/awayScoreInning7"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+                <TextView
+                    android:id="@+id/homeScoreInning7"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linescoreInning8"
+                style="@style/lineScoreInningColumn">
+
+                <TextView
+                    style="@style/inningLabel"
+                    android:text="@string/inning_8_column_label" />
+
+                <TextView
+                    android:id="@+id/awayScoreInning8"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+                <TextView
+                    android:id="@+id/homeScoreInning8"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/lineScoreInningColumn">
+
+                <TextView
+                    style="@style/inningLabel"
+                    android:text="@string/inning_9_column_label" />
+
+                <TextView
+                    android:id="@+id/awayScoreInning9"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+                <TextView
+                    android:id="@+id/homeScoreInning9"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/inningColumnBlank">
+
+                <TextView style="@style/inningLabel" />
+
+                <TextView style="@style/inningScore" />
+
+                <TextView style="@style/inningScore" />
+
+            </LinearLayout>
+
+
+            <LinearLayout style="@style/lineScoreInningColumn">
+
+                <TextView
+                    style="@style/inningLabel.bold"
+                    android:text="@string/run_column_label" />
+
+                <TextView
+                    android:id="@+id/awayTotalRuns"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+                <TextView
+                    android:id="@+id/homeTotalRuns"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+            </LinearLayout>
+
+
+            <LinearLayout style="@style/lineScoreInningColumn">
+
+                <TextView
+                    style="@style/inningLabel.bold"
+                    android:text="@string/hit_column_label" />
+
+                <TextView
+                    android:id="@+id/awayTotalHits"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+                <TextView
+                    android:id="@+id/homeTotalHits"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/lineScoreInningColumn">
+
+                <TextView
+                    style="@style/inningLabel"
+                    android:text="@string/error_column_label" />
+
+                <TextView
+                    android:id="@+id/awayTotalErrors"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+                <TextView
+                    android:id="@+id/homeTotalErrors"
+                    style="@style/inningScore"
+                    android:text="@string/scoreboard_initial_value" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/actionButtons"
+            style="@style/buttonsLayout">
+
+            <View style="@style/Divider" />
+
+            <LinearLayout style="@style/buttonsColumn">
+
+                <TextView
+                    style="@style/buttonColumnTitle"
+                    android:text="@string/fielding_buttons_column_title" />
+
+                <Button
+                    android:id="@+id/outButton"
+                    style="@style/button"
+                    android:onClick="outButton"
+                    android:text="@string/outs_button_label" />
+
+                <Button
+                    android:id="@+id/errorButton"
+                    style="@style/button"
+                    android:onClick="errorButton"
+                    android:text="@string/error_button_label" />
+
+                <ImageView
+                    style="@style/image"
+                    android:contentDescription="@string/pitcherPicDescription"
+                    android:src="@drawable/pitcher" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/buttonsColumn">
+
+                <TextView
+                    style="@style/buttonColumnTitle"
+                    android:text="@string/batting_buttons_column_title" />
+
+
+                <Button
+                    android:id="@+id/hitButton"
+                    style="@style/button"
+                    android:onClick="hitButton"
+                    android:text="@string/hit_button_label" />
+
+                <Button
+                    android:id="@+id/runButton"
+                    style="@style/button"
+                    android:onClick="runButton"
+                    android:text="@string/run_button_label" />
+
+                <ImageView
+                    style="@style/image"
+                    android:contentDescription="@string/batterPicDescription"
+                    android:src="@drawable/batter" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            style="@style/resetButton"
+            android:onClick="resetButton"
+            android:text="@string/reset_button_label" />
+
+    </RelativeLayout>
+
+</ScrollView>

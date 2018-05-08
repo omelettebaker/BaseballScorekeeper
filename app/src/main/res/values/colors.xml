@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d50000</color>
+    <color name="colorPrimaryDark">#9b0000</color>
+    <color name="colorAccent">#0d47a1</color>
+    <color name="colorButtonNormal">#0d47a1</color>
+    <color name="colorInningHalf">#D50000</color>
+    <color name="colorOuts">#D50000</color>
+    <color name="colorLinescore1">#757575</color>
+    <color name="colorLinescore2">#9e9e9e</color>
+    <color name="colorBackground">#bdbdbd</color>
+    <color name="colorDivider">#424242</color>
+    <color name="colorInningLabel">#ffffff</color>
+
+</resources>

@@ -1,0 +1,11 @@
+0000000000000000000000000000000000000000 82a0e424d2792919e6512080ded8c18adea90409 Charlie Y <omelettebaker@gmail.com> 1523652455 -0700	commit (initial): 1) created a method to initialize textViews to be called in the onCreate()
+82a0e424d2792919e6512080ded8c18adea90409 82a0e424d2792919e6512080ded8c18adea90409 Charlie Y <omelettebaker@gmail.com> 1523652969 -0700	reset: moving to HEAD
+82a0e424d2792919e6512080ded8c18adea90409 b347bee129cd8108d3fbfd4b16f4320dc0f270fe Charlie Y <omelettebaker@gmail.com> 1523653422 -0700	commit: 1) created a method to initialize textViews to be called in the onCreate()
+b347bee129cd8108d3fbfd4b16f4320dc0f270fe b347bee129cd8108d3fbfd4b16f4320dc0f270fe Charlie Y <omelettebaker@gmail.com> 1523653581 -0700	rebase -i (start): checkout refs/heads/master
+b347bee129cd8108d3fbfd4b16f4320dc0f270fe b347bee129cd8108d3fbfd4b16f4320dc0f270fe Charlie Y <omelettebaker@gmail.com> 1523653581 -0700	rebase -i (finish): returning to refs/heads/master
+b347bee129cd8108d3fbfd4b16f4320dc0f270fe 8db529bea66bef6a8801ac6afca3c87ec9ccd8ab Charlie Y <omelettebaker@gmail.com> 1523653648 -0700	commit: 1) created a method to initialize textViews to be called in the onCreate()
+8db529bea66bef6a8801ac6afca3c87ec9ccd8ab 8db529bea66bef6a8801ac6afca3c87ec9ccd8ab Charlie Y <omelettebaker@gmail.com> 1523661053 -0700	reset: moving to HEAD
+8db529bea66bef6a8801ac6afca3c87ec9ccd8ab 8db529bea66bef6a8801ac6afca3c87ec9ccd8ab Charlie Y <omelettebaker@gmail.com> 1523661064 -0700	rebase -i (start): checkout refs/heads/master
+8db529bea66bef6a8801ac6afca3c87ec9ccd8ab 8db529bea66bef6a8801ac6afca3c87ec9ccd8ab Charlie Y <omelettebaker@gmail.com> 1523661064 -0700	rebase -i (finish): returning to refs/heads/master
+8db529bea66bef6a8801ac6afca3c87ec9ccd8ab 8db529bea66bef6a8801ac6afca3c87ec9ccd8ab Charlie Y <omelettebaker@gmail.com> 1523661163 -0700	reset: moving to HEAD
+8db529bea66bef6a8801ac6afca3c87ec9ccd8ab 4dcaac6ebbd64a03dc4fcd930d8c8b4c08e95b66 Charlie Y <omelettebaker@gmail.com> 1524285390 -0700	commit: 4/20: added all directories and subdirectories

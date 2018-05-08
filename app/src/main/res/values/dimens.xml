@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="linescore_team_column_weight">3</dimen>
+    <dimen name="linescore_inning_column_weight">2</dimen>
+    <dimen name="horizontal_margin">24dp</dimen>
+    <dimen name="score_text_size">56sp</dimen>
+    <dimen name="scoreboard_vertical_margin">8dp</dimen>
+    <dimen name="middle_of_scoreboard">18sp</dimen>
+    <dimen name="linescore_vertical_margin">16dp</dimen>
+    <dimen name="reset_button_horizontal_margin">32dp</dimen>
+    <dimen name="fielding_heading_margin_bottom">8sp</dimen>
+    <dimen name="button_vertical_margin">4dp</dimen>
+    <dimen name="image_padding">24dp</dimen>
+    <dimen name="reset_button_vertical_margin">10dp</dimen>
+    <dimen name="divider_width">1dp</dimen>
+    <dimen name="linescore_padding_horizontal">8dp</dimen>
+
+</resources>

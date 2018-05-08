@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Baseball Scorekeeper</string>
+    <string name="homeName">HOME</string>
+    <string name="awayName">AWAY</string>
+    <string name="finalOut">FINAL</string>
+    <string name="reset_button_label">RESET</string>
+    <string name="run_button_label">Run</string>
+    <string name="hit_button_label">Hit</string>
+    <string name="batting_buttons_column_title">BATTING</string>
+    <string name="error_button_label">Error</string>
+    <string name="outs_button_label">OUTS</string>
+    <string name="fielding_buttons_column_title">FIELDING</string>
+    <string name="scoreboard_initial_value">0</string>
+    <string name="inning_initial_value">1</string>
+    <string name="inning_half_initial_value">Top</string>
+    <string name="outs_column_label">Outs</string>
+    <string name="inning_1_column_label">1</string>
+    <string name="inning_2_column_label">2</string>
+    <string name="inning_3_column_label">3</string>
+    <string name="inning_4_column_label">4</string>
+    <string name="inning_5_column_label">5</string>
+    <string name="inning_6_column_label">6</string>
+    <string name="inning_7_column_label">7</string>
+    <string name="inning_8_column_label">8</string>
+    <string name="inning_9_column_label">9</string>
+    <string name="run_column_label">R</string>
+    <string name="hit_column_label">H</string>
+    <string name="error_column_label">E</string>
+    <string name="batterPicDescription">silhouette image of baseball batter</string>
+    <string name="pitcherPicDescription">silhouette image of baseball pitcher</string>
+</resources>
