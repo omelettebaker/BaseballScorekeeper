@@ -12,4 +12,4 @@
 
 - taken on emulated Pixel 2 (API 22)
 
-![ScreenShot](/screenshot1.png)
+![ScreenShot](/screenshot.png)
